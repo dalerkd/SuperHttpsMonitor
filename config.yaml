@@ -1,0 +1,10 @@
+# HTTPS代理配置
+proxy:
+  # 要劫持的源域名
+  source_host: z.baidu.com
+  # 目标转发域名
+  target_host: cn.bing.com
+  # 代理服务器配置
+  server:
+    host: 127.0.0.1
+    port: 443
